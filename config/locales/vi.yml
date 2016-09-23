@@ -1,0 +1,40 @@
+vi:
+   home:
+      welcome: "Chào mừng đến với Simple App"
+      homepage: "Đây là trang chủ"
+      rails: "Training Rails"
+      sample: "application"
+      signup: "Đăng ký ngay"
+   footer:
+      rails: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      link: "Link"
+      the: "The"
+      by: "by"
+   header:
+      sample: "Sample app"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+   help:
+      gethelp: "Get help on the Ruby on Rails Tutorial at the"
+      helpsection: "Rails Tutorial help section"
+      tohelp: "To get help on this sample app, see the"
+      helpTut: "Ruby on Rails Tutorial"
+   about:
+      ruby: "Ruby on Rails Tutorial"
+      isA: " is a"
+      and: "and"
+      broadcast: "screencast series"
+      webdevelop: "to teach web development with"
+      ror: "Ruby on Rails"
+      sample: "This is the sample application for the tutorial."
+      book: "book"
+   contact:
+      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contactpage: "contact page"
+   signup:
+      signup: "Đăng ký ngay"
+      title: "This will be a signup page for new users."
