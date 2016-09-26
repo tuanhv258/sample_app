@@ -38,3 +38,11 @@ vi:
    signup:
       signup: "Đăng ký ngay"
       title: "This will be a signup page for new users."
+   controller:
+      welcome: "Welcome to the Sample App!"
+   new:
+      confirm: "Confirmation"
+      create: "Create my account"
+   error:
+      error: "error"
+      form: "The form contains"
