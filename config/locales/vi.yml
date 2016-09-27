@@ -48,6 +48,7 @@ vi:
    new:
       confirm: "Confirmation"
       create: "Create my account"
+      remember: "Remember me on this computer"
    error:
       error: "error"
       form: "The form contains"
