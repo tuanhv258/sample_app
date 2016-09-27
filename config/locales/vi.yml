@@ -18,6 +18,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      user: "User"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+      account: "Account"
    help:
       gethelp: "Get help on the Ruby on Rails Tutorial at the"
       helpsection: "Rails Tutorial help section"
@@ -46,3 +51,7 @@ vi:
    error:
       error: "error"
       form: "The form contains"
+   session:
+      login: "Log in"
+      signup: "Sign up now"
+      danger: "Invalid email/password combination"
