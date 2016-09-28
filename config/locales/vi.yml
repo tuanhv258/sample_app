@@ -48,6 +48,7 @@ vi:
    new:
       confirm: "Confirmation"
       create: "Create my account"
+      remember: "Remember me on this computer"
    error:
       error: "error"
       form: "The form contains"
@@ -55,3 +56,19 @@ vi:
       login: "Log in"
       signup: "Sign up now"
       danger: "Invalid email/password combination"
+   edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      change: "Save changes"
+      change2: "change"
+   usercontroller:
+      please: "Please log in."
+      sucess: "Success"
+      delete: "User deleted"
+   userindex:
+      index: "All users"
+      delete: "delete"
+      sure: "You sure?"
+   helper:
+      sample: "Ruby on Rails Tutorial Sample App"
+      x: " | "
