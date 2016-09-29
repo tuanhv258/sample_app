@@ -56,6 +56,8 @@ vi:
       login: "Log in"
       signup: "Sign up now"
       danger: "Invalid email/password combination"
+      activated: "Account not activated. "
+      check: "Check your email for the activation link."
    edit:
       edit: "Edit user"
       update: "Update your profile"
@@ -65,6 +67,7 @@ vi:
       please: "Please log in."
       sucess: "Success"
       delete: "User deleted"
+      check: "Please check your email to activate your account."
    userindex:
       index: "All users"
       delete: "delete"
@@ -72,3 +75,12 @@ vi:
    helper:
       sample: "Ruby on Rails Tutorial Sample App"
       x: " | "
+   activate:
+      activate: "Account activated!"
+      invalid: "Invalid activation link"
+      activate1: "Activate"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+   mailer:
+      activation: "Account activation"
+      hi: "Hi"
+      mail: "to@example.org"

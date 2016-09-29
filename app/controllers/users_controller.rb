@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, expect: [:new, :show, :create]
+  before_action :logged_in_user, except: [:new, :show, :create]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
   include UsersHelper
@@ -8,19 +8,20 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.paginate(page: params[:page]).order("id ASC")
+    @users = User.where(activated: FILL_IN).paginate page: params[:page]
   end
 
   def show
     @user = User.find_by params[:id]
+    redirect_to root_url and return unless FILL_IN
   end
 
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t"controller.welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t"usercontroller.check"
+      redirect_to root_url
     else
       render :new
     end
